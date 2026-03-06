@@ -1,40 +1,328 @@
-# GCS - Gestion d'un Club Sportif
-## 📌 Description
-**GCS** est une application mobile développée avec **Ionic** et **Angular**.  
-Elle permet aux sportifs et aux coachs de se connecter, de gérer leurs informations, de choisir des activités sportives et de faciliter les abonnements au sein d'un club.
+<div align="center">
+
+<br/>
+
+```
+ ██████╗  ██████╗███████╗
+██╔════╝ ██╔════╝██╔════╝
+██║  ███╗██║     ███████╗
+██║   ██║██║     ╚════██║
+╚██████╔╝╚██████╗███████║
+ ╚═════╝  ╚═════╝╚══════╝
+```
+
+### 🌿 **GLOBAL COACH SPORT**
+
+<br/>
+
+<img src="https://img.shields.io/badge/Ionic-6+-3880FF?style=for-the-badge&logo=ionic&logoColor=white"/>
+<img src="https://img.shields.io/badge/Angular-17+-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-5+-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Status-Active-2ea44f?style=for-the-badge"/>
+
+<br/><br/>
+
+> *Connectez sportifs et coachs professionnels.*
+> *Gérez vos abonnements. Progressez ensemble.* 🏆
+
+<br/>
+
+</div>
+
 ---
-## 🚀 Fonctionnalités principales
+
+<br/>
+
+## 📌 À propos du projet
+
+**GCS (Global Coach Sport)** est une application mobile moderne développée avec **Ionic** et **Angular**, pensée pour révolutionner la gestion des clubs sportifs.
+
+Elle crée un pont direct entre **sportifs motivés** et **coachs certifiés**, tout en automatisant la gestion des abonnements, des catégories sportives et des retours d'expérience.
+
+<br/>
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│   🏋️  Musculation    🧘  Yoga         🏃  Cardio        │
+│   🏊  Natation       🥋  Arts Martiaux  ⚡  CrossFit    │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
+
+<br/>
+
+---
+
+## 🖼️ Aperçu de l'application
+
+<br/>
+
 ### 🏠 Page d'accueil
-- Message de bienvenue invitant à rejoindre la communauté  
-- Boutons : **Se connecter** et **S'inscrire**
-### 🔑 Authentification
-- **Connexion** : accès avec email et mot de passe  
-- **Inscription** : choix du type de compte (Utilisateur ou Coach) avec formulaire adapté  
-### 👤 Utilisateur
-- Gestion des informations personnelles  
-- Choix d'une catégorie de sport (musculation, yoga, cardio, natation, arts martiaux, crossfit)  
-- Sélection d'un coach associé à la catégorie choisie  
-- Possibilité de donner un avis/commentaire  
-- Paiement d'un abonnement (semaine, mois, année) avec plusieurs modes de paiement : liquide, mobile money (Airtel Money, Mvoola, Orange Money), carte bancaire  
-### 🧑‍🏫 Coach
-- Gestion des informations personnelles  
-- Consultation des avis et commentaires des abonnés  
-- Liste des abonnés avec filtres (Tout, Actif, Expirés)  
-- Section dédiée aux avis reçus  
+
+<div align="center">
+  <img src="src/assets/sources/home.png" width="240" alt="Page d'accueil" style="border-radius: 20px;"/>
+  <br/><br/>
+  <i>✨ Écran de bienvenue — Rejoignez la communauté GCS</i>
+</div>
+
+<br/>
+
+> 🟢 L'écran d'accueil présente le logo **GCS**, un message de bienvenue chaleureux et deux actions principales : **Se connecter** ou **S'inscrire**. Le design sobre sur fond vert foncé donne une identité forte et sportive à l'application.
+
+<br/>
+
 ---
-## 🛠️ Technologies utilisées
-- **Framework** : Ionic  
-- **Front-end** : Angular  
-- **Langages** : TypeScript, HTML, CSS  
+
+### 🔑 Page de connexion
+
+<div align="center">
+  <img src="src/assets/sources/login.png" width="240" alt="Page de connexion"/>
+  <br/><br/>
+  <i>🔐 Connexion sécurisée par email & mot de passe</i>
+</div>
+
+<br/>
+
+> 🟢 L'écran de connexion intègre une image de contexte sportif en haut, suivi des champs **Email** et **Mot de passe**. Une option *"Email / Mot de passe oublié ?"* est disponible. Depuis cet écran, l'utilisateur peut aussi accéder directement à l'inscription.
+
+<br/>
+
 ---
+
+### 📝 Page d'inscription
+
+<div align="center">
+  <img src="src/assets/sources/register-user.png" width="220" alt="Inscription Utilisateur"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="src/assets/sources/register-coach.png" width="220" alt="Inscription Coach"/>
+  <br/><br/>
+  <i>👤 Compte Utilisateur &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 🧑‍🏫 Compte Coach</i>
+</div>
+
+<br/>
+
+> 🟢 L'inscription propose deux profils distincts via un **toggle Utilisateur / Coach** :
+> - **Utilisateur** : Nom, Prénom, Email, Mot de passe
+> - **Coach** : Nom, Prénom, Email, Spécialité, Années d'expérience, Numéro de certification, Mot de passe
+
+<br/>
+
+---
+
+### 👤 Espace Utilisateur
+
+<div align="center">
+  <img src="src/assets/sources/user-categories.png" width="200" alt="Catégories sport"/>
+  &nbsp;&nbsp;
+  <img src="src/assets/sources/user-coach-select.png" width="200" alt="Choix du coach"/>
+  <br/><br/>
+  <i>🏅 Choix de catégorie &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 🤝 Sélection du coach</i>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="src/assets/sources/user-subscription-cash.png" width="200" alt="Paiement Liquide"/>
+  &nbsp;&nbsp;
+  <img src="src/assets/sources/user-subscription-mobile.png" width="200" alt="Mobile Money"/>
+  &nbsp;&nbsp;
+  <img src="src/assets/sources/user-subscription-card.png" width="200" alt="Carte bancaire"/>
+  <br/><br/>
+  <i>💵 Liquide &nbsp;&nbsp;|&nbsp;&nbsp; 📱 Mobile Money &nbsp;&nbsp;|&nbsp;&nbsp; 💳 Carte bancaire</i>
+</div>
+
+<br/>
+
+> 🟢 L'utilisateur choisit sa **catégorie d'entraînement** parmi 6 disciplines, puis sélectionne un **coach disponible** selon ses avis et sa spécialité. Il configure ensuite son **abonnement** (semaine / mois / année) et son **mode de paiement** préféré.
+
+<br/>
+
+**Tarifs d'abonnement :**
+
+| Durée | Prix | Économie |
+|-------|------|----------|
+| 📅 Par semaine | 15 000 Ar | — |
+| 🗓️ Par mois | 50 000 Ar | -17% |
+| 📆 Par année | 500 000 Ar | -31% |
+
+<br/>
+
+---
+
+### 🧑‍🏫 Espace Coach
+
+<div align="center">
+  <img src="src/assets/sources/coach-subscribers.png" width="200" alt="Dashboard Coach"/>
+  &nbsp;&nbsp;
+  <img src="src/assets/sources/coach-subscribers-list.png" width="200" alt="Liste abonnés"/>
+  &nbsp;&nbsp;
+  <img src="src/assets/sources/coach-reviews.png" width="200" alt="Avis reçus"/>
+  <br/><br/>
+  <i>📊 Tableau de bord &nbsp;&nbsp;|&nbsp;&nbsp; 📋 Mes abonnés &nbsp;&nbsp;|&nbsp;&nbsp; ⭐ Mes avis</i>
+</div>
+
+<br/>
+
+> 🟢 Le coach dispose d'un **tableau de bord complet** affichant ses statistiques clés (nombre d'abonnés, note moyenne, nombre d'avis), la **liste filtrée de ses abonnés** (Tous / Actifs / Expirés), et une **section dédiée aux avis** reçus avec notation étoiles.
+
+<br/>
+
+---
+
+## 🚀 Fonctionnalités principales
+
+<br/>
+
+<table>
+  <tr>
+    <td width="50%">
+
+### 👤 Côté Utilisateur
+- ✅ Inscription & connexion sécurisée
+- ✅ Choix de la catégorie sportive
+- ✅ Sélection d'un coach certifié
+- ✅ Abonnement semaine / mois / année
+- ✅ 3 modes de paiement disponibles
+- ✅ Dépôt d'avis et commentaires
+
+    </td>
+    <td width="50%">
+
+### 🧑‍🏫 Côté Coach
+- ✅ Inscription avec certification
+- ✅ Tableau de bord avec statistiques
+- ✅ Gestion des abonnés (actifs/expirés)
+- ✅ Consultation des avis reçus
+- ✅ Note moyenne calculée automatiquement
+- ✅ Profil public visible par les utilisateurs
+
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+## 🛠️ Stack technique
+
+<br/>
+
+<div align="center">
+
+| Couche | Technologie | Version |
+|--------|-------------|---------|
+| 📱 Framework mobile | Ionic | 6+ |
+| 🅰️ Framework front-end | Angular | 17+ |
+| 🔷 Langage principal | TypeScript | 5+ |
+| 🎨 Styles | HTML5 / CSS3 / SCSS | — |
+| 📦 Gestionnaire de paquets | npm | — |
+
+</div>
+
+<br/>
+
+---
+
 ## 📖 Manuel d'utilisation
-### Lancer le projet
-Dans le répertoire du projet, exécutez la commande suivante :
+
+<br/>
+
+### ⚙️ Prérequis
+
+Avant de lancer le projet, assurez-vous d'avoir installé :
+
+```bash
+# Node.js (v18 ou supérieur recommandé)
+node --version
+
+# Ionic CLI
+npm install -g @ionic/cli
+
+# Vérifier l'installation
+ionic --version
+```
+
+<br/>
+
+### 📥 Installation des dépendances
+
+```bash
+# Cloner le projet
+git clone <url-du-repo>
+
+# Naviguer dans le dossier
+cd GCS
+
+# Installer les dépendances
+npm install
+```
+
+<br/>
+
+### ▶️ Lancer le projet
+
 ```bash
 ionic serve
 ```
-Une page web devrait s'ouvrir automatiquement dans votre navigateur par défaut avec l'application.  
-Si ce n'est pas le cas, rendez-vous manuellement sur : `http://localhost:8100`
+
+> 💡 Une page web s'ouvrira automatiquement dans votre navigateur.
+> Si ce n'est pas le cas, rendez-vous sur : **http://localhost:8100**
+
+<br/>
+
+### 📁 Structure du projet
+
+```
+GCS/
+├── src/
+│   ├── app/               # Pages & composants Angular
+│   ├── assets/
+│   │   ├── icon/          # Icônes de l'app
+│   │   ├── img/           # Images générales
+│   │   └── sources/       # Captures d'écran (README)
+│   ├── environments/      # Config environnements
+│   └── theme/             # Thème global (variables SCSS)
+├── ionic.config.json
+└── package.json
+```
+
+<br/>
+
 ---
-## 🎯 Objectif
-Faciliter la mise en relation entre **sportifs** et **coachs professionnels**, tout en simplifiant la gestion des abonnements et des interactions dans un club sportif.
+
+## 🎯 Objectif du projet
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║   Faciliter la mise en relation entre SPORTIFS           ║
+║   et COACHS PROFESSIONNELS, tout en simplifiant          ║
+║   la gestion des abonnements et des interactions         ║
+║   au sein d'un club sportif moderne. 🏆                  ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+```
+
+<br/>
+
+---
+
+<div align="center">
+
+<br/>
+
+![Made with Love](https://img.shields.io/badge/Made%20with-💚-1a7a1a?style=for-the-badge)
+![Ionic](https://img.shields.io/badge/Powered%20by-Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white)
+![Angular](https://img.shields.io/badge/Built%20with-Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+
+<br/>
+
+*© 2025 GCS — Global Coach Sport. Tous droits réservés.*
+
+<br/>
+
+</div>
